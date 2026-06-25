@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>BOMBOM | Design That Builds Trust</title>
+  <meta name="description"
+    content="BOMBOM is a premium design studio specializing in branding, web design, editorial design, landing pages, and marketing creative." />
+
+  <!-- Pretendard font -->
+  <link href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css"
+    rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <div class="custom-cursor" aria-hidden="true"></div>
+
+  <header class="site-header" id="header">
+    <div class="container header-inner">
+      <div class="logo">
+        <a href="#hero" class="logo__link" aria-label="BOMBOM Home">BOMBOM</a>
+      </div>
+
+      <nav class="gnb" aria-label="Main navigation">
+        <button type="button" class="menu-toggle" aria-controls="nav-list" aria-expanded="false" aria-label="Open Menu">
+          <span class="menu-toggle__bar"></span>
+          <span class="menu-toggle__bar"></span>
+          <span class="menu-toggle__bar"></span>
+        </button>
+
+        <ul class="gnb-list" id="nav-list">
+          <li class="gnb-item"><a href="#about" class="gnb-link">About</a></li>
+          <li class="gnb-item"><a href="#services" class="gnb-link">Services</a></li>
+          <li class="gnb-item"><a href="#projects" class="gnb-link">Projects</a></li>
+          <li class="gnb-item"><a href="#process" class="gnb-link">Process</a></li>
+          <li class="gnb-item"><a href="#contact" class="gnb-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <a href="#contact" class="btn btn-primary header-cta">Start Project</a>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="hero-section reveal-item">
+      <div class="hero-video-bg" aria-hidden="true">
+        <video class="hero-video" autoplay muted loop playsinline>
+          <source src="img/main_video.mp4" type="video/mp4" />
+        </video>
+        <div class="hero-video-overlay"></div>
+      </div>
+
+      <div class="container hero-content">
+        <div class="hero-text">
+          <h1 class="hero-title">Design That<br />Builds Trust</h1>
+          <p class="hero-subtitle">브랜드를 만드는 것이 아니라<br />고객의 신뢰를 디자인합니다.</p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-secondary">프로젝트 보기</a>
+            <a href="#contact" class="btn btn-primary">문의하기</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about-section reveal-item">
+      <div class="container">
+        <div class="about-editorial">
+          <div class="about-editorial__meta">
+            <span class="about-editorial__label">Who We Are</span>
+            <p class="about-editorial__intro">BOMBOM은 디자인을 통해 비즈니스의 가치를 시각화하고 신뢰를 구축합니다.</p>
+          </div>
+
+          <div class="about-editorial__main">
+            <article class="about-editorial__block">
+              <span class="about-editorial__heading">MISSION</span>
+              <h2 class="about-editorial__title">We solve business problems through design.</h2>
+              <p class="about-editorial__text">우리는 기업이 당면한 핵심 비즈니스 문제를 정의하고, 명확하고 완성도 높은 시각 언어를 통해 근본적으로 해결합니다.</p>
+            </article>
+
+            <article class="about-editorial__block">
+              <span class="about-editorial__heading">VISION</span>
+              <h2 class="about-editorial__title">Design beyond aesthetics.</h2>
+              <p class="about-editorial__text">디자인을 넘어 클라이언트 비즈니스의 지속 가능한 성장을 함께 도모하는 업계 최고의 신뢰 파트너로 나아갑니다.</p>
+            </article>
+
+            <article class="about-editorial__block">
+              <span class="about-editorial__heading">VALUE</span>
+              <h2 class="about-editorial__title">Trust. Strategy. Execution.</h2>
+              <p class="about-editorial__text">철저한 시장 분석 기반의 고객 중심 설계, 타협 없는 완성도, 그리고 투명하고 긴밀한 커뮤니케이션을 지향합니다.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="services-section reveal-item">
+      <div class="container">
+        <div class="section-header-editorial">
+          <span class="section-label-editorial">What We Do</span>
+          <h2 class="section-title-editorial">Services</h2>
+          <p class="section-description-editorial">고객의 니즈에 부합하는 정밀하고 체계적인 전문 디자인 서비스를 제공합니다.</p>
+        </div>
+
+        <div class="services-list-container">
+          <ul class="services-list">
+            <li class="services-item-row" data-bg="branding">
+              <div class="services-item-row__content">
+                <span class="services-item-row__num">01</span>
+                <h3 class="services-item-row__title">Branding</h3>
+                <p class="services-item-row__description">기업의 철학과 방향성을 담아 브랜드 아이덴티티와 가이드라인을 정의하고 고유한 브랜딩 가치를 설계합니다.</p>
+              </div>
+              <div class="services-item-row__line"></div>
+            </li>
+
+            <li class="services-item-row" data-bg="web">
+              <div class="services-item-row__content">
+                <span class="services-item-row__num">02</span>
+                <h3 class="services-item-row__title">Web Design</h3>
+                <p class="services-item-row__description">사용자 행동 분석 및 세밀한 인터랙션을 통해 직관적이고 완성도 높은 반응형 인터페이스를 제공합니다.</p>
+              </div>
+              <div class="services-item-row__line"></div>
+            </li>
+
+            <li class="services-item-row" data-bg="editorial">
+              <div class="services-item-row__content">
+                <span class="services-item-row__num">03</span>
+                <h3 class="services-item-row__title">Editorial Design</h3>
+                <p class="services-item-row__description">기업 브로슈어, 브랜드 매거진, 패키지 등 인쇄 매체와 디지털 매체 전반을 관통하는 최적의 레이아웃을
+                  구축합니다.</p>
+              </div>
+              <div class="services-item-row__line"></div>
+            </li>
+
+            <li class="services-item-row" data-bg="landing">
+              <div class="services-item-row__content">
+                <span class="services-item-row__num">04</span>
+                <h3 class="services-item-row__title">Landing Page</h3>
+                <p class="services-item-row__description">전환 행동 유도 분석과 설득력 있는 비주얼 흐름을 통해 비즈니스 목표를 극대화하는 랜딩 페이지를 설계합니다.
+                </p>
+              </div>
+              <div class="services-item-row__line"></div>
+            </li>
+
+            <li class="services-item-row" data-bg="marketing">
+              <div class="services-item-row__content">
+                <span class="services-item-row__num">05</span>
+                <h3 class="services-item-row__title">Marketing Creative</h3>
+                <p class="services-item-row__description">타겟 오디언스 분석을 기반으로 마케팅 채널 전반에서 성과를 내는 다양한 디지털 광고 크리에이티브를 개발합니다.
+                </p>
+              </div>
+              <div class="services-item-row__line"></div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="why" class="why-section reveal-item">
+      <div class="container">
+        <div class="section-header-editorial">
+          <span class="section-label-editorial">Why Choose Us</span>
+          <h2 class="section-title-editorial">Why BOMBOM</h2>
+          <p class="section-description-editorial">디자인 결과물을 넘어 프로젝트 수행 과정과 최종 성과로 신뢰를 입증합니다.</p>
+        </div>
+
+        <div class="why-editorial-layout">
+          <div class="why-editorial-row">
+            <article class="why-editorial-item">
+              <span class="why-editorial-num">01</span>
+              <div class="why-editorial-content">
+                <h3 class="why-editorial-title">고객 중심 기획</h3>
+                <p class="why-editorial-text">클라이언트의 비즈니스 현황과 직면한 문제를 깊이 탐구하고 분석하여 전략적 방향을 먼저 제안합니다.</p>
+              </div>
+            </article>
+
+            <article class="why-editorial-item">
+              <span class="why-editorial-num">02</span>
+              <div class="why-editorial-content">
+                <h3 class="why-editorial-title">다양한 산업 경험</h3>
+                <p class="why-editorial-text">정부 지원 사업, 스타트업, 대기업 등 다채로운 스펙트럼의 프로젝트를 수행하며 탄탄한 전문 지식을 보유하고 있습니다.</p>
+              </div>
+            </article>
+          </div>
+
+          <div class="why-editorial-row">
+            <article class="why-editorial-item">
+              <span class="why-editorial-num">03</span>
+              <div class="why-editorial-content">
+                <h3 class="why-editorial-title">빠른 커뮤니케이션</h3>
+                <p class="why-editorial-text">진행 상황을 투명하게 공유하며 신속하고 명확한 피드백을 통해 협업 과정에서의 불필요한 불안 요소를 줄입니다.</p>
+              </div>
+            </article>
+
+            <article class="why-editorial-item">
+              <span class="why-editorial-num">04</span>
+              <div class="why-editorial-content">
+                <h3 class="why-editorial-title">문제 해결 중심 디자인</h3>
+                <p class="why-editorial-text">시각적으로만 미려한 것에 머무르지 않고 비즈니스의 구조적 문제를 분석하여 실질적인 솔루션을 제시합니다.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects-section reveal-item">
+      <div class="container">
+        <div class="section-header-editorial">
+          <span class="section-label-editorial">Our Works</span>
+          <h2 class="section-title-editorial">Featured Projects</h2>
+          <p class="section-description-editorial">BOMBOM이 정의하고 디자인으로 해결해 낸 대표 프로젝트 성과들을 소개합니다.</p>
+        </div>
+      </div>
+
+      <div class="projects-showroom">
+        <article class="project-showcase">
+          <div class="project-showcase__media-wrapper">
+            <img src="img/kti.png" alt="Project Alpha" class="project-showcase__image" />
+          </div>
+          <div class="container project-showcase__detail">
+            <div class="project-showcase__info">
+              <span class="project-showcase__category">Branding</span>
+              <h3 class="project-showcase__title">KTi Branding</h3>
+              <p class="project-showcase__summary">복잡하고 모호한 기업의 메시지를 재정립하고 일관된 비주얼을 제공하여 신뢰도 높은 브랜딩을
+                완성했습니다.</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-showcase">
+          <div class="project-showcase__media-wrapper">
+            <img src="img/blockcoin.png" alt="Project Beta" class="project-showcase__image" />
+          </div>
+          <div class="container project-showcase__detail">
+            <div class="project-showcase__info">
+              <span class="project-showcase__category">Web Design</span>
+              <h3 class="project-showcase__title">갤럭시블록코인 Web Design</h3>
+              <p class="project-showcase__summary">코인거래소 웹사이트 제작을 통해, 신규고객을 모집하고 런칭 이후 한달안에 거래량을 2000% 증대시켰습니다.</p>
+            </div>
+          </div>
+        </article>
+
+
+
+
+
+        <article class="project-showcase">
+          <div class="project-showcase__media-wrapper">
+            <img src="img/sns.png" alt="현대카드 오토카드 SNS Design" class="project-showcase__image" />
+          </div>
+          <div class="container project-showcase__detail">
+            <div class="project-showcase__info">
+              <span class="project-showcase__category">SNS Design</span>
+              <h3 class="project-showcase__title">현대카드 오토카드 SNS Design</h3>
+              <p class="project-showcase__summary">현대카드 오토카드의 SNS 디자인을 1년간 진행하였습니다.</p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="process" class="process-section reveal-item">
+      <div class="container">
+        <div class="section-header-editorial">
+          <span class="section-label-editorial">How We Work</span>
+          <h2 class="section-title-editorial">Our Process</h2>
+          <p class="section-description-editorial">투명하고 체계적인 4단계 프로세스를 통해 만족도 높은 협업을 약속합니다.</p>
+        </div>
+
+        <div class="process-timeline-container">
+          <div class="process-timeline-line" aria-hidden="true"></div>
+
+          <div class="process-timeline">
+            <article class="process-timeline-item">
+              <div class="process-timeline-point" aria-hidden="true"></div>
+              <div class="process-timeline-content">
+                <span class="process-timeline-num">01</span>
+                <h3 class="process-timeline-title">Discover</h3>
+                <p class="process-timeline-text">클라이언트 비즈니스 상황을 다각도로 리서치하여 해결하고자 하는 문제를 명확히 규명합니다.</p>
+              </div>
+            </article>
+
+            <article class="process-timeline-item">
+              <div class="process-timeline-point" aria-hidden="true"></div>
+              <div class="process-timeline-content">
+                <span class="process-timeline-num">02</span>
+                <h3 class="process-timeline-title">Strategy</h3>
+                <p class="process-timeline-text">정의된 문제에 기초하여 비주얼 방향성 및 핵심 가치를 설계하고 컨셉 전략안을 구축합니다.</p>
+              </div>
+            </article>
+
+            <article class="process-timeline-item">
+              <div class="process-timeline-point" aria-hidden="true"></div>
+              <div class="process-timeline-content">
+                <span class="process-timeline-num">03</span>
+                <h3 class="process-timeline-title">Design</h3>
+                <p class="process-timeline-text">도출된 전략을 토대로 프리미엄 비주얼과 모바일 친화적인 사용자 경험 디자인을 체계적으로 구현합니다.</p>
+              </div>
+            </article>
+
+            <article class="process-timeline-item">
+              <div class="process-timeline-point" aria-hidden="true"></div>
+              <div class="process-timeline-content">
+                <span class="process-timeline-num">04</span>
+                <h3 class="process-timeline-title">Launch</h3>
+                <p class="process-timeline-text">품질 검증을 거친 최종 산출물을 고사양 포맷으로 가공하여 안정적으로 전달 및 배포합니다.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section reveal-item">
+      <div class="container">
+        <div class="section-header-editorial">
+          <span class="section-label-editorial">Let's Work Together</span>
+          <h2 class="section-title-editorial">Contact Us</h2>
+          <p class="section-description-editorial">당신의 비즈니스 가치를 디자인으로 넓혀 나가세요. 간략히 작성해주시면 빠르게 회신 드리겠습니다.</p>
+        </div>
+
+        <form class="contact-form" id="contactForm" action="#" method="POST">
+          <div class="form-group">
+            <label for="name" class="form-label">성함 (Name) <span class="required">*</span></label>
+            <input type="text" id="name" name="name" class="form-input" placeholder="성함을 입력해주세요." required />
+          </div>
+
+          <div class="form-group">
+            <label for="company" class="form-label">회사명 (Company) <span class="required">*</span></label>
+            <input type="text" id="company" name="company" class="form-input" placeholder="회사명을 입력해주세요." required />
+          </div>
+
+          <div class="form-group">
+            <label for="email" class="form-label">이메일 주소 (Email) <span class="required">*</span></label>
+            <input type="email" id="email" name="email" class="form-input" placeholder="example@domain.com" required />
+          </div>
+
+          <div class="form-group">
+            <label for="message" class="form-label">프로젝트 문의 내용 (Message) <span class="required">*</span></label>
+            <textarea id="message" name="message" class="form-textarea" rows="5"
+              placeholder="프로젝트 목표, 예산, 일정 등 논의하고자 하시는 내용을 입력해주세요." required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary form-submit">문의 메시지 보내기</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-bottom">
+        <div class="footer-info">
+          <p>디자인에이전시 BOMBOM | 대표: 봄봄 | 서울시 강남구 테헤란로</p>
+          <p>사업자등록번호: 000-00-00000 | 이메일: info@bombom.design</p>
+        </div>
+
+        <p class="footer-copyright">© 2026 BOMBOM. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
